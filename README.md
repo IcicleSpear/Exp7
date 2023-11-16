@@ -11,7 +11,7 @@ To create and develop the application to display the place name with image using
 Android Studio(Latest Version)
 
 ## ALGORITHM:
-
+```
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as “listview″ and click Next. 
@@ -25,7 +25,7 @@ Step 5: Design layout in activity_main.xml.
 Step 6: Get contacts details and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
-
+```
 ## PROGRAM:
 ```
 /*
@@ -161,6 +161,7 @@ android:textStyle="bold" />
 </LinearLayout>
 ```
 ### MYListAdapter:
+```
 package com.example.listview;
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -189,7 +190,7 @@ imageView.setImageResource(imgid[position]);
 return rowView;
 };
 }
-
+```
 ## OUTPUT:
 ![image](https://github.com/IcicleSpear/Exp7/assets/123985960/31634d9e-8963-44be-bd87-bce7f8408f52)
 ![image](https://github.com/IcicleSpear/Exp7/assets/123985960/d44e27c2-09f0-4c26-a7e3-b801a7fa2af8)
